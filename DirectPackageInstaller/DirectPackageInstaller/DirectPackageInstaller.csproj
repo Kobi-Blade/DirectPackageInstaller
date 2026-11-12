@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -22,8 +22,8 @@
         <PackageReference Include="Jint" Version="4.2.0" />
         <PackageReference Include="NFS-Client" Version="1.0.0" />
         <PackageReference Include="SharpCompress" Version="0.48.0" />
-        <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.1" />
-        <PackageReference Include="System.Management" Version="9.0.1" />
+        <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.15" />
+        <PackageReference Include="System.Management" Version="10.0.15" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\DHCPServer\DHCPServer\Library\Library.csproj" />
